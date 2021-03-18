@@ -10,3 +10,5 @@ proyecto5/tasks/Search.java
  proyecto5.tasks.Search
 proyecto5/userinterface/SearchCoursePage.java
  proyecto5.userinterface.SearchCoursePage
+proyecto5/questions/Answer.java
+ proyecto5.questions.Answer

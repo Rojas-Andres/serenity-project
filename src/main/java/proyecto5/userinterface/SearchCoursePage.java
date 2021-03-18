@@ -11,5 +11,8 @@ public class SearchCoursePage {
     public static final Target BUTTON_GO = Target.the("Click para buscar el curso").located(By.xpath("//button[@class='btn btn-secondary']"));
 //$x("//div[@class='search-results']//a[contains(text(),'Foundation Express')]")
     public static final Target SELECT_COURSE = Target.the("Click en el curso").located(By.xpath("//div[@class='search-results']//a[contains(text(),'Foundation Express')]"));
+    //$x("//h1[contains(text(),'Foundation Express')]")
+    public static final Target NAME_COURSE = Target.the("Curso").located(By.xpath("//h1[contains(text(),'Foundation Express')]"));
+
 
 }

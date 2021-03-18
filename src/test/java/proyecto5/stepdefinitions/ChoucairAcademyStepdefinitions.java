@@ -4,12 +4,13 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.java.Before;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import proyecto5.tasks.Login;
 import proyecto5.tasks.OpenUp;
 import proyecto5.tasks.Search;
-
+import proyecto5.questions.Answer;
 public class ChoucairAcademyStepdefinitions {
 
     // Preparan el scenario para nuestroa actor
@@ -30,9 +31,10 @@ public class ChoucairAcademyStepdefinitions {
         OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
     }
 
-    @Then("^he finds$")
-    public void heFinds() {
+    @Then("^he finds the course called resources (.*)$")
+    public void heFindsTheCourseCalledResourcesFoundationExpress(String question) {
         // Write code here that turns the phrase above into concrete actions
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(Answer.toThe(question)));
     }
 
 }
