@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 import proyecto5.tasks.Login;
 import proyecto5.tasks.OpenUp;
+import proyecto5.tasks.Search;
 
 public class ChoucairAcademyStepdefinitions {
 
@@ -23,9 +24,10 @@ public class ChoucairAcademyStepdefinitions {
     }
 
 
-    @When("^he search$")
-    public void heSearch() {
+    @When("^he search for the course (.*) on the choucair academy plataform$")
+    public void heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlataform(String course) {
         // Write code here that turns the phrase above into concrete actions
+        OnStage.theActorInTheSpotlight().attemptsTo(Search.the(course));
     }
 
     @Then("^he finds$")

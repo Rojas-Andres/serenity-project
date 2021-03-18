@@ -6,3 +6,7 @@ proyecto5/userinterface/ChoucairLoginPage.java
  proyecto5.userinterface.ChoucairLoginPage
 proyecto5/tasks/Login.java
  proyecto5.tasks.Login
+proyecto5/tasks/Search.java
+ proyecto5.tasks.Search
+proyecto5/userinterface/SearchCoursePage.java
+ proyecto5.userinterface.SearchCoursePage
