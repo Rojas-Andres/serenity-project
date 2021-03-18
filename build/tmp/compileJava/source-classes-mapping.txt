@@ -2,3 +2,7 @@ proyecto5/tasks/OpenUp.java
  proyecto5.tasks.OpenUp
 proyecto5/userinterface/ChoucairAcademyPage.java
  proyecto5.userinterface.ChoucairAcademyPage
+proyecto5/userinterface/ChoucairLoginPage.java
+ proyecto5.userinterface.ChoucairLoginPage
+proyecto5/tasks/Login.java
+ proyecto5.tasks.Login

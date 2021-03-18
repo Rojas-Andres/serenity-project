@@ -6,6 +6,7 @@ import cucumber.api.java.en.When;
 import cucumber.api.java.Before;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import proyecto5.tasks.Login;
 import proyecto5.tasks.OpenUp;
 
 public class ChoucairAcademyStepdefinitions {
@@ -18,7 +19,7 @@ public class ChoucairAcademyStepdefinitions {
     @Given("^than brandons wants to learns automation at the academy choucair$")
     public void thanBrandonsWantsToLearnsAutomationAtTheAcademyChoucair() {
         // Write code here that turns the phrase above into concrete actions
-        OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage());
+        OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage(), (Login.onThePage()));
     }
 
 
