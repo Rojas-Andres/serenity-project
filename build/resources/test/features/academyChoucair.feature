@@ -1,13 +1,17 @@
 @stories
   Feature: Academy Choucair
     AS USWE
-  Scenario: Search for automation course
+  Scenario Outline: Search for automation course
     Given  than brandons wants to learns automation at the academy choucair
     | strUser    |  strPassword          |
-    | 1006206400 |  Choucair2021*        |
+    | <strUser>  |  <strPassword>         |
     When he search for the course on the choucair academy plataform
     | strCourse          |
-    | Foundation Express |
+    | <strCourse> |
     Then he finds the course called resources
     | strCourse          |
-    | Foundation Express |
+    | <strCourse> |
+
+    Examples:
+    | strUser   | strPassword   | strCourse          |
+    | 1006206400| Choucair2021* | Foundation Express |
