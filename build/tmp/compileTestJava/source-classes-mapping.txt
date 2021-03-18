@@ -1,2 +1,4 @@
 proyecto5/runners/RunnerTags.java
  proyecto5.runners.RunnerTags
+proyecto5/stepdefinitions/ChoucairAcademyStepdefinitions.java
+ proyecto5.stepdefinitions.ChoucairAcademyStepdefinitions

@@ -3,11 +3,22 @@ package proyecto5.stepdefinitions;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.java.Before;
+import net.serenitybdd.screenplay.actors.OnStage;
+import net.serenitybdd.screenplay.actors.OnlineCast;
+import proyecto5.tasks.OpenUp;
 
 public class ChoucairAcademyStepdefinitions {
-    @Given("^that brandon$")
-    public void thatBrandon() {
+
+    // Preparan el scenario para nuestroa actor
+    @Before
+    public void setStage(){
+        OnStage.setTheStage(new OnlineCast());
+    }
+    @Given("^than brandons wants to learns automation at the academy choucair$")
+    public void thanBrandonsWantsToLearnsAutomationAtTheAcademyChoucair() {
         // Write code here that turns the phrase above into concrete actions
+        OnStage.theActorCalled("Brandon").wasAbleTo(OpenUp.thePage());
     }
 
 

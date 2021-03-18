@@ -1,0 +1,4 @@
+proyecto5/tasks/OpenUp.java
+ proyecto5.tasks.OpenUp
+proyecto5/userinterface/ChoucairAcademyPage.java
+ proyecto5.userinterface.ChoucairAcademyPage
