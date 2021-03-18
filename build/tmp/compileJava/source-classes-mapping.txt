@@ -4,11 +4,13 @@ proyecto5/userinterface/ChoucairAcademyPage.java
  proyecto5.userinterface.ChoucairAcademyPage
 proyecto5/userinterface/ChoucairLoginPage.java
  proyecto5.userinterface.ChoucairLoginPage
-proyecto5/tasks/Login.java
- proyecto5.tasks.Login
+proyecto5/questions/Answer.java
+ proyecto5.questions.Answer
 proyecto5/tasks/Search.java
  proyecto5.tasks.Search
 proyecto5/userinterface/SearchCoursePage.java
  proyecto5.userinterface.SearchCoursePage
-proyecto5/questions/Answer.java
- proyecto5.questions.Answer
+proyecto5/tasks/Login.java
+ proyecto5.tasks.Login
+proyecto5/model/AcademyChoucairData.java
+ proyecto5.model.AcademyChoucairData
